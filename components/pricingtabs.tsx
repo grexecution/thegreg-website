@@ -90,7 +90,7 @@ export default function PricingTabs() {
                                         </ul>
                                     </div>
                                     <div className="mt-8">
-                                        <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="#0">
+                                        <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="https://wa.me/436509405071?text=Ich%20brauche%20eine%20Website-Light!">
                                             Jetzt Anfragen
                                         </a>
                                     </div>
@@ -148,7 +148,7 @@ export default function PricingTabs() {
                                         </ul>
                                     </div>
                                     <div className="mt-8">
-                                        <a className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow" href="#0">
+                                        <a className="btn text-zinc-600 bg-white hover:text-zinc-900 w-full shadow" href="https://wa.me/436509405071?text=Ich%20brauche%20eine%20Website-Premium!">
                                             Jetzt Anfragen
                                         </a>
                                     </div>
@@ -203,7 +203,7 @@ export default function PricingTabs() {
                                         </ul>
                                     </div>
                                     <div className="mt-8">
-                                        <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="#0">
+                                        <a className="btn text-zinc-100 bg-gradient-to-r from-zinc-700 to-zinc-900 hover:from-zinc-900 hover:to-zinc-900 w-full shadow" href="https://wa.me/436509405071?text=Ich%20brauche%20eine%20Website-Maßgeschneidert!">
                                             Jetzt Anfragen
                                         </a>
                                     </div>
