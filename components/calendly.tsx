@@ -26,7 +26,7 @@ export default function MyModal() {
             </div>
 
             <Transition appear show={isOpen} as={Fragment}>
-                <Dialog as="div" className="relative z-10" onClose={closeModal}>
+                <Dialog as="div" className="relative z-99" onClose={closeModal}>
                     <Transition.Child
                         as={Fragment}
                         enter="ease-out duration-300"
@@ -51,12 +51,12 @@ export default function MyModal() {
                                 leaveTo="opacity-0 scale-95"
                             >
                                 <Dialog.Panel className="w-full max-w-md h-max transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
-                                    <div className="max-h-90vh">
+                                    <div className="90vh">
                                         <iframe
                                             height="700"
                                             width="100%"
                                             src="https://calendly.com/gregwallner/website"
-                                            className="max-h-90vh"
+                                            className="90vh"
                                         >
 
                                         </iframe>
