@@ -14,7 +14,7 @@ interface TestimonialProps {
 export default function Testimonial({ testimonial, children }: TestimonialProps) {
     return (
         <div className="rounded h-fit overflow-hidden w-[18rem] border border-transparent [background:linear-gradient(#323237,#323237)_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700),theme(colors.zinc.700))_border-box] p-5rounded h-full w-[22rem] border border-transparent [background:linear-gradient(#323237,#323237)_padding-box,linear-gradient(120deg,theme(colors.zinc.700),theme(colors.zinc.700),theme(colors.zinc.700))_border-box] p-2">
-                <Image className="rounded" src={testimonial.image} width={350}/>
+                <Image className="rounded" src={testimonial.image} width={350} height={100} alt="Website Screenshot" />
         </div>
     )
 }
