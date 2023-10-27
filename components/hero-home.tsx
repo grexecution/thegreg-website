@@ -1,6 +1,7 @@
 import VideoThumb from '@/public/images/mockup-image-01.jpg'
 import ModalVideoIphone from '@/components/modal-video-iphone'
 import Calendly from "@/components/calendly";
+import Whatsapp from "@/components/whatsapp";
 
 export default function HeroHome() {
   return (
@@ -17,7 +18,7 @@ export default function HeroHome() {
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Jeder Mausklick hat sein Echo. Ich forme deine Online-Identität zu einem unvergesslichen Erlebnis, das Technik und Emotion vereint.
               </p>
                 <div className="mt-6 gap-4 flex flex-col sm:flex-row justify-center md:justify-start max-w-sm mx-auto sm:max-w-md md:mx-0">
-                  <Calendly/>
+                  <Whatsapp/>
                   <a className="btn text-teal-500 bg-white hover:bg-teal-100 shrink-0" href="#projekte">Projekte ansehen</a>
                 </div>
               <ul className="max-w-sm sm:max-w-md mx-auto md:max-w-none text-gray-600 dark:text-gray-400 mt-8 -mb-2" data-aos="fade-down" data-aos-delay="450">

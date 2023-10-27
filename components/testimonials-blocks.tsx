@@ -21,9 +21,9 @@ export default function TestimonialsBlocks() {
                   <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
                 </svg>
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Unsere Produkte leben von Emotionen und genau das spiegelt unsere neue Website wider. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Andy Croll</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appy.com</a>
+                <cite className="not-italic">—David Krammer</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Olivadis</a>
               </div>
             </div>
 
@@ -35,9 +35,9 @@ export default function TestimonialsBlocks() {
                   <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
                 </svg>
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Unser Ticket Buchungssystem ist nicht nur optisch ein Highlight, sondern auch in puncto Bedienfreundlichkeit und Performance. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Patricia Lepisov</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Nobi Bank</a>
+                <cite className="not-italic">—Florian Röhlich</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Kabarett Am See</a>
               </div>
             </div>
 
@@ -49,28 +49,13 @@ export default function TestimonialsBlocks() {
                   <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
                 </svg>
               </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
+              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Die Kombination aus kreativem Design und technischer Exzellenz hat uns begeistert. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Zhenya Ritz</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Sync</a>
-              </div>
-            </div>
-
-            {/* 4th testimonial */}
-            <div className="text-center">
-              <div className="relative inline-flex flex-col mb-4">
-                <Image className="rounded-full" src={TestimonialImage04} width={56} height={56} alt="Testimonial 04" />
-                <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
-                  <path className="fill-current text-purple-500" d="M2.785 5.334C2.538 5.5-.2 2.944.011 2.646.826 1.483 2.183.836 3.62.5 5.064.158 6.582.117 7.92-.02c.017-.002.098.153.088.166-1.763 2.018-3.223 3.836-5.221 5.188zm3.676 6.519c-.862.184-1.937-3.403-1.07-3.711 3.422-1.22 7.078-1.671 10.728-1.766 3.655-.096 7.304.162 10.866.32.044.002.06.177.018.187-6.938 1.634-13.691 3.504-20.542 4.97z" />
-                </svg>
-              </div>
-              <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ This is a great app and the value is amazing. Since I purchased it I have been using it everyday! Highly recommend it. “</blockquote>
-              <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Lisa Champ</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Appicu</a>
+                <cite className="not-italic">—Amina Kern</cite>
               </div>
             </div>
 
           </div>
-
         </div>
       </div>
     </section>

@@ -9,8 +9,9 @@ export default function PricingTables() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h2 className="h2 font-red-hat-display mb-4 text-gray-100">Transparente Preise für dein Projekt</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+            <h2 className="h2 font-red-hat-display mb-4 text-gray-100">Transparente Preise, echter Wert</h2>
+            <p className="text-xl text-gray-400">Ein beeindruckender Webauftritt muss nicht dein Budget sprengen. Entdecke unsere fairen Pakete, die Qualität und Wert vereinen.
+            </p>
           </div>
 
           {/* Pricing tables */}
@@ -24,11 +25,13 @@ export default function PricingTables() {
                   <div className="inline-flex px-3 py-1 text-xs font-medium text-teal-600 dark:text-teal-400 bg-teal-200 dark:bg-teal-600 dark:bg-opacity-25 rounded-full">-40%</div>
                 </div>
                 <div className="font-red-hat-display inline-flex items-baseline mb-2">
-                  <span className="h4 text-gray-600 dark:text-gray-400">$</span>
-                  <span className="h3">27</span>
-                  <span className="font-medium text-gray-500 dark:text-gray-400">/billed yearly</span>
+                  <span className="h4 text-gray-600 dark:text-gray-400">€</span>
+                  <span className="h3">1.119</span>
+                  <span className="font-medium text-gray-500 dark:text-gray-400">/ einmalig</span>
                 </div>
-                <div className="text-gray-500 dark:text-gray-400">— Lorem ipsum dolor amet sit consect adipiscing.</div>
+                <div className="text-gray-500 dark:text-gray-400">— One-Pager</div>
+                <div className="text-gray-500 dark:text-gray-400">— Konzeption, Design & Entwicklung</div>
+                <div className="text-gray-500 dark:text-gray-400">— Rasend schnelle Website</div>
               </div>
               <div className="mt-24">
                 <a className="btn-sm text-white bg-teal-500 hover:bg-teal-400 w-full" href="#0">Go Premium</a>

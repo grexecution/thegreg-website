@@ -5,7 +5,8 @@ export const metadata = {
 
 import PageIllustration from '@/components/page-illustration'
 import Hero from '@/components/hero-home'
-import PricingTables from '@/components/pricing-tables'
+import PricingTabs from "@/components/pricingtabs";
+import Faq from "@/components/faq"
 import TestimonialsBlocks from '@/components/testimonials-blocks'
 import Cta from '@/components/cta'
 import Clients from '@/components/clients'
@@ -22,7 +23,8 @@ export default function Home() {
         <Hero />
         <Testimonials/>
         <Clients/>
-        <PricingTables />
+        <PricingTabs/>
+        <Faq/>
         <TestimonialsBlocks />
         <Cta />
     </>

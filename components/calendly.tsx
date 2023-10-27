@@ -53,7 +53,7 @@ export default function MyModal() {
                                 <Dialog.Panel className="w-full max-w-md h-max transform overflow-hidden rounded-2xl bg-white text-left align-middle shadow-xl transition-all">
                                     <div className="90vh">
                                         <iframe
-                                            height="700"
+                                            height="600"
                                             width="100%"
                                             src="https://calendly.com/gregwallner/website?hide_event_type_details=1&hide_gdpr_banner=1"
                                             className="90vh"

@@ -32,9 +32,9 @@ export default function Footer() {
           </div>
 
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
+          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-4 md:mb-12">
             {/* 1st block */}
-            <div className="md:col-span-2 lg:col-span-3">
+            <div className="md:col-span-2 lg:col-span-3 flex justify-center">
               {/* Logo */}
               <Link className="inline-block" href="/" aria-label="Cruip">
                 <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -54,136 +54,10 @@ export default function Footer() {
               </Link>
             </div>
 
-            {/* 2nd, 3rd, 4th and 5th blocks */}
-            <div className="md:col-span-10 lg:col-span-9 grid grid-cols-2 md:grid-cols-4 gap-8">
-              {/* 2nd block */}
-              <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Products</h6>
-                <ul>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Drag And Drop
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Visual Studio X
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Easy Content
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* 3rd block */}
-              <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Resources</h6>
-                <ul>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Industries and tools
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Use cases
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Blog
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Online events
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Nostrud exercitation
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* 4th block */}
-              <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Company</h6>
-                <ul>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Diversity & inclusion
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      About us
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Press
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Customer stories
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Online communities
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-              {/* 5th block */}
-              <div className="text-sm">
-                <h6 className="font-medium uppercase mb-2">Support</h6>
-                <ul>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Documentation
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Tutorials & guides
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Webinars
-                    </a>
-                  </li>
-                  <li className="mb-1">
-                    <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                      Open-source
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
 
           {/* Bottom area */}
           <div className="text-center md:flex md:items-center md:justify-between">
-
-            {/* Middle links */}
-            <div className="text-sm md:order-1 text-gray-700 mb-2 md:mb-0">
-              <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                Terms
-              </a>{' '}
-              ·{' '}
-              <a className="text-gray-600 dark:text-gray-400 hover:underline transition duration-150 ease-in-out" href="#0">
-                Privacy Policy
-              </a>
-            </div>
 
             {/* Copyrights note */}
             <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; thegreg.at</div>

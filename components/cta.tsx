@@ -1,3 +1,4 @@
+import Whatsapp from "@/components/whatsapp";
 export default function Cta() {
   return (
     <section>
@@ -30,18 +31,11 @@ export default function Cta() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 font-red-hat-display text-gray-100">Free until you're ready to launch</h3>
+              <h3 className="h3 font-red-hat-display text-gray-100">Jetzt starten und keine Zeit verlieren!</h3>
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
-              <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input type="tel" className="form-input text-gray-100 w-full mb-2 sm:mb-0 sm:mr-2" placeholder="Phone number" aria-label="Phone number" />
-                <a className="btn text-white bg-teal-500 hover:bg-teal-400 shrink-0" href="#0">Request code</a>
-              </div>
-              {/* Success message */}
-              {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
-            </form>
+            <Whatsapp/>
 
           </div>
 
