@@ -1,13 +1,13 @@
 'use client'
 import Testimonial from '@/components/testimonial'
-import TestimonialImg01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImg02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImg03 from '@/public/images/testimonial-03.jpg'
-import TestimonialImg04 from '@/public/images/testimonial-04.jpg'
-import TestimonialImg05 from '@/public/images/testimonial-05.jpg'
-import TestimonialImg06 from '@/public/images/testimonial-06.jpg'
-import TestimonialImg07 from '@/public/images/testimonial-07.jpg'
-import TestimonialImg08 from '@/public/images/testimonial-08.jpg'
+import TestimonialImg01 from '@/public/images/olivadis_screenshot.png'
+import TestimonialImg02 from '@/public/images/berndorf_screenshot.png'
+import TestimonialImg03 from '@/public/images/Blackboard_product_dt.png'
+import TestimonialImg04 from '@/public/images/kas_screenshot.png'
+import TestimonialImg05 from '@/public/images/ps_screenshot.png'
+import TestimonialImg06 from '@/public/images/olivadis_screenshot.png'
+import TestimonialImg07 from '@/public/images/berndorf_screenshot.png'
+import TestimonialImg08 from '@/public/images/Blackboard_product_dt.png'
 
 export default function Testimonials() {
 
@@ -74,11 +74,11 @@ export default function Testimonials() {
     ]
 
     return (
-        <section className="bg-zinc-800">
+        <section id="projekte" className="bg-zinc-800">
             <div className="py-12 md:py-20">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                        <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-200">Unsere Designs</h2>
+                        <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-200">Meine Projekte</h2>
                     </div>
                 </div>
                 <div className="max-w-[94rem] mx-auto space-y-6">
