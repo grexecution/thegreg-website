@@ -26,7 +26,7 @@ export default function MyModal() {
             </div>
 
             <Transition appear show={isOpen} as={Fragment}>
-                <Dialog as="div" className="relative z-99" onClose={closeModal}>
+                <Dialog as="div" className="relative z-99" onClose={closeModal}  style={{ zIndex: 99}}>
                     <Transition.Child
                         as={Fragment}
                         enter="ease-out duration-300"
@@ -55,7 +55,7 @@ export default function MyModal() {
                                         <iframe
                                             height="700"
                                             width="100%"
-                                            src="https://calendly.com/gregwallner/website"
+                                            src="https://calendly.com/gregwallner/website?hide_event_type_details=1&hide_gdpr_banner=1"
                                             className="90vh"
                                         >
 
