@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Appy',
-  description: 'Page description',
+  title: 'dergreg.com - Webentwicklung mit Pfiff',
+  description: '',
 }
 
 import PageIllustration from '@/components/page-illustration'
