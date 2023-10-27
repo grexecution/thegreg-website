@@ -59,7 +59,7 @@ export default function PricingTabs() {
                                                 <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                                 </svg>
-                                                <Tooltip id="03" content="Lorem Ipsum is simply dummy text of the printing.">
+                                                <Tooltip id="03" content="Wir wollen für alle Websitebesucher ein einwandfreies Erlebniss bieten. Keine Kompromisse, ich mache eigene Sektionen für alle Geräte.">
                                                     Optimiert für Smartphone, Tablet & PC
                                                 </Tooltip>
                                             </li>
@@ -67,7 +67,7 @@ export default function PricingTabs() {
                                                 <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                                 </svg>
-                                                <Tooltip id="04" content="Lorem Ipsum is simply dummy text of the printing.">
+                                                <Tooltip id="04" content="Heutzutage wartet keiner mehr. Meine Websites haben die höchsten Geschwindigkeitsstufen laut Google.">
                                                     Rasend schnelle Ladezeit
                                                 </Tooltip>
                                             </li>
@@ -75,7 +75,7 @@ export default function PricingTabs() {
                                                 <svg className="w-3 h-3 fill-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                                                 </svg>
-                                                <Tooltip id="05" content="Lorem Ipsum is simply dummy text of the printing.">
+                                                <Tooltip id="05" content="Ich optimiere alle Seiten für eine optimale Ansicht auf Google inkl. Search Console verknüpfung.">
                                                     Google SEO optimiert
                                                 </Tooltip>
                                             </li>
