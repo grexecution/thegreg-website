@@ -1,6 +1,5 @@
 import VideoThumb from '@/public/images/mockup-image-01.jpg'
 import ModalVideoIphone from '@/components/modal-video-iphone'
-import Calendly from "@/components/calendly";
 import Whatsapp from "@/components/whatsapp";
 
 export default function HeroHome() {
@@ -17,9 +16,9 @@ export default function HeroHome() {
               <h1 className="h1 lg:text-6xl mb-4 font-red-hat-display font-black" data-aos="fade-down">Ein neuer Anstrich für dein Business</h1>
               <p className="text-xl text-gray-600 dark:text-gray-400" data-aos="fade-down" data-aos-delay="150">Jeder Mausklick hat sein Echo. Ich forme deine Online-Identität zu einem unvergesslichen Erlebnis, das Technik und Emotion vereint.
               </p>
-                <div className="mt-6 gap-4 flex flex-col sm:flex-row justify-center md:justify-start max-w-md mx-auto sm:max-w-md md:mx-0">
+                <div className="mt-6 gap-4 flex flex-col sm:flex-row justify-center md:justify-start max-w-md md:max-w-full mx-auto sm:max-w-md md:mx-0">
                   <Whatsapp/>
-                  <a className="btn text-teal-500 bg-white hover:bg-teal-100 shrink-0" href="#projekte">Projekte ansehen</a>
+                  <a className="btn text-teal-500 bg-white hover:bg-teal-100 shrink-0" href="#projekte">Website Projekte ansehen</a>
                 </div>
               <div className="pt-1"><span>Fertige Website in 4 Wochen | ab €1190,-</span></div>
             </div>

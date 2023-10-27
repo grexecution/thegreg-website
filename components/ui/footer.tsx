@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-16 border-t border-gray-200 dark:border-gray-800 -mt-px">
+        <div className="py-8 md:py-16 -mt-px">
           {/* Footer illustration */}
           <div className="pointer-events-none -z-1" aria-hidden="true">
             <svg
@@ -36,7 +36,7 @@ export default function Footer() {
             {/* 1st block */}
             <div className="md:col-span-2 lg:col-span-3 flex justify-center">
               {/* Logo */}
-              <Link className="inline-block" href="/" aria-label="Cruip">
+              <Link className="inline-block md:hidden" href="/" aria-label="Cruip">
                 <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                   <defs>
                     <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
@@ -60,8 +60,8 @@ export default function Footer() {
           <div className="text-center md:flex md:items-center md:justify-between">
 
             {/* Copyrights note */}
-            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">&copy; thegreg.at</div>
-            <div className="text-gray-600 dark:text-gray-400 text-sm mr-4">All rights reserved</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm">&copy; dergreg.com</div>
+            <div className="text-gray-600 dark:text-gray-400 text-sm">All rights reserved</div>
           </div>
         </div>
       </div>

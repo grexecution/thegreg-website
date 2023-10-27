@@ -5,11 +5,11 @@ export default function Cta() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* CTA box */}
-        <div className="dark relative bg-gray-800 py-10 px-8 md:py-16 md:px-12">
+        <div className="dark relative rounded-lg bg-gray-800 py-10 px-8 md:py-16 md:px-12">
 
           {/* Background illustration */}
-          <div className="absolute inset-0 left-auto  pointer-events-none" aria-hidden="true">
-            <svg className="h-full" width="400" height="232" viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
+          <div className="absolute rounded-lg inset-0 left-auto  pointer-events-none" aria-hidden="true">
+            <svg className="h-full rounded-lg" width="400" height="232" viewBox="0 0 400 232" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="39.386%" id="box-gr-a">
                   <stop stopColor="#667EEA" offset="0%" />
