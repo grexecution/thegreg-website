@@ -21,8 +21,8 @@ export default function Home() {
         <PageIllustration />
       </div>
         <Hero />
-        <Testimonials/>
         <Clients/>
+        <Testimonials/>
         <PricingTabs/>
         <Faq/>
         <TestimonialsBlocks />

@@ -9,35 +9,21 @@ export default function Faq() {
 
     const faqs = [
         {
-            title: 'Can I use the product for free?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
+            title: 'Bietest du auch laufendes Service?',
+            text: 'Ja! Wenn du meine laufendes Service in Anspruch nehmen willst, kümmer ich mich um deine Domain, Hosting, Emails, etc. ',
             active: false,
         },
         {
-            title: 'What payment methods can I use?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
+            title: 'Wie läuft das Projekt normalerweise ab?',
+            text: 'Wir starten mit einem Video-Meeting wo wir gemeinsam das Konzept ausarbeiten. Danach designe ich die Website und bitte dich um Feedback.',
             active: false,
         },
         {
-            title: 'Can I change from monthly to yearly billing?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
+            title: 'Welche Zahlungsmethoden bietest du an?',
+            text: 'Ich nehme Zahlungen bei Projektstart in Form von Überweisung oder Kreditkartenzahlung.',
             active: false,
         },
-        {
-            title: 'Can I use the tool for personal, client, and commercial projects?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
-            active: true,
-        },
-        {
-            title: 'How can I ask other questions about pricing?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
-            active: false,
-        },
-        {
-            title: 'Do you offer discount for students and no-profit companies?',
-            text: 'Absolutely! Grey allows you to create as many commercial graphics/images as you like, for yourself or your clients.',
-            active: false,
-        },
+
     ]
 
     return (
