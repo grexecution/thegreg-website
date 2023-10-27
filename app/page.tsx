@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'dergreg.com - Webentwicklung mit Pfiff',
-  description: '',
+  title: 'derGreg.com – Websites, die verkaufen, überzeugen und verzaubern!',
+  description: 'Warum sich zwischen Funktionalität und Flair entscheiden? Ich biete Websites, die nicht nur hübsch anzusehen sind, sondern auch die Kasse klingeln lassen. Schau vorbei und bringe dein Online-Geschäft auf die Überholspur!',
 }
 
 import PageIllustration from '@/components/page-illustration'
