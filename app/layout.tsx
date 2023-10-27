@@ -12,6 +12,7 @@ import 'aos/dist/aos.css'
 
 import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
+import FacebookPixel from "@/components/FacebookPixel";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -52,6 +53,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </Theme>
+        <FacebookPixel />
       </body>
     </html>
   )
