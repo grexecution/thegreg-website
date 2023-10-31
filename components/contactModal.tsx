@@ -33,7 +33,7 @@ export default function MyModal() {
                 <button
                     type="button"
                     onClick={openModal}
-                    className="btn w-full text-white bg-teal-500 hover:bg-teal-400 shrink-0 gap-2"
+                    className="btn w-full border-2 text-white bg-teal-500 hover:bg-teal-400 shrink-0 gap-2 shadow-lg dark:shadow-teal-500/20"
                 >
                     <Image src={MessageIcon} width={20} height={20} alt="Whatsapp Icon" />
                     Kontakt aufnehmen
@@ -92,7 +92,7 @@ export default function MyModal() {
                                     <div className="mt-4 flex flex-col gap-2">
                                         <button
                                             type="button"
-                                            onClick={function(event){ closeModal(); contactWhatsapp()}}
+                                            onClick={function(){ closeModal(); contactWhatsapp()}}
                                             className="btn w-full text-white bg-black hover:bg-gray-900 shrink-0 gap-2 border-2">
                                             <Image src={WhatsappIcon} width={20} height={20} alt="Whatsapp Icon" />
                                             Auf Whatsapp schreiben
@@ -100,7 +100,7 @@ export default function MyModal() {
                                         <button
                                             type="button"
                                             className="btn text-black bg-white hover:bg-gray-100 shrink-0 border-black border-2 border-inset"
-                                            onClick={function(event){ closeModal(); contactMail()}}
+                                            onClick={function(){ closeModal(); contactMail()}}
                                         >
                                             Email schreiben
                                         </button>
