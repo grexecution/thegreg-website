@@ -58,7 +58,11 @@ export default function Footer() {
 
             {/* Copyrights note */}
             <div className="text-gray-600 dark:text-gray-400 text-sm">&copy; dergreg.com</div>
-            <div className="text-gray-600 dark:text-gray-400 text-sm">All rights reserved</div>
+            <div className="pt-2 md-pt-0 flex gap-7 justify-center">
+              <div className="text-gray-600 dark:text-gray-400 text-sm">Impressum</div>
+              <div className="text-gray-600 dark:text-gray-400 text-sm">All rights reserved</div>
+            </div>
+
           </div>
         </div>
       </div>
