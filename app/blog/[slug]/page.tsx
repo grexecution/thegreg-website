@@ -3,7 +3,6 @@ import { allPosts } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import PostDate from '@/components/post-date'
-import { Mdx } from '@/components/mdx/mdx'
 import Newsletter from '@/components/newsletter'
 import RelatedPosts from '@/components/related-posts-02'
 
@@ -80,7 +79,6 @@ export default async function SinglePost({ params }: {
 
                 {/* Article content */}
                 <div className="mb-8" data-aos="fade-up" data-aos-delay="450">
-                  <Mdx code={post.body.code} />
                 </div>
 
                 {/* Article footer */}
