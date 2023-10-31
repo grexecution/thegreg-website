@@ -36,21 +36,18 @@ export default function Footer() {
             {/* 1st block */}
             <div className="md:col-span-2 lg:col-span-3 flex justify-center">
               {/* Logo */}
-              <Link className="inline-block md:hidden" href="/" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <Link className="inline-block md:hidden" href="/" aria-label="derGreg">
+                <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.7553 33.3647C7.81971 33.3647 0.549805 26.0948 0.549805 17.1592C0.549805 8.22674 7.81971 0.959961 16.7553 0.959961C23.7761 0.959961 29.9314 5.45266 32.1233 12.0283H25.6037C23.773 8.865 20.4323 6.92221 16.7553 6.92221C11.1075 6.92221 6.51206 11.5145 6.51206 17.1592C6.51206 22.807 11.1075 27.4025 16.7553 27.4025C20.0369 27.4025 23.1441 25.8084 25.0651 23.1433L26.1299 21.6644H18.8289V16.4992H32.5498C32.5498 16.5583 32.5467 16.7202 32.5467 16.7202C32.5405 17.8224 32.5062 19.2608 32.3132 20.6432C32.1451 21.845 31.8617 22.9129 31.4445 23.9061C30.2583 26.7268 28.0415 29.2394 25.2021 30.9829C22.6677 32.5397 19.7442 33.3647 16.7553 33.3647Z" fill="url(#paint0_linear_119_127)"/>
                   <defs>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_a">
-                      <stop stopColor="#3ABAB4" offset="0%" />
-                      <stop stopColor="#7F9CF5" offset="100%" />
-                    </linearGradient>
-                    <linearGradient x1="26%" y1="100%" x2="100%" y2="100%" id="flogo_b">
-                      <stop stopColor="#3ABAB4" offset="0%" />
-                      <stop stopColor="#3ABAB4" stopOpacity="0" offset="100%" />
+                    <linearGradient id="paint0_linear_119_127" x1="23.3656" y1="0.829664" x2="8.8269" y2="36.5948" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#809CD0"/>
+                      <stop offset="0.5026" stop-color="#3ABAB4"/>
+                      <stop offset="1" stop-color="#16716F"/>
                     </linearGradient>
                   </defs>
-                  <path d="M32 16h-8a8 8 0 10-16 0H0C0 7.163 7.163 0 16 0s16 7.163 16 16z" fill="url(#flogo_a)" />
-                  <path d="M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16h8a8 8 0 1016 0h8z" fill="url(#flogo_b)" />
                 </svg>
+
               </Link>
             </div>
 

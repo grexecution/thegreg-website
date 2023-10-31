@@ -1,4 +1,4 @@
-import VideoThumb from '@/public/images/mockup-image-01.jpg'
+import VideoThumb from '@/public/images/home_thumbnail.png'
 import ModalVideoIphone from '@/components/modal-video-iphone'
 import ContactModal from '@/components/contactModal'
 
@@ -31,8 +31,8 @@ export default function HeroHome() {
                 thumbWidth={290}
                 thumbHeight={624}
                 thumbAlt="Modal video thumbnail"
-                video="/videos/video.mp4"
-                videoWidth={1920}
+                video="/videos/gregisback.mp4"
+                videoWidth={1080}
                 videoHeight={1080} />
 
             </div>
