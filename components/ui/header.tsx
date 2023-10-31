@@ -11,7 +11,7 @@ export default function Header() {
 
           {/* Site branding */}
           <div className="shrink-0 mr-5">
-            <Link href="/" className="block" aria-label="Cruip">
+            <Link href="/" className="block" aria-label="derGreg">
               <Logo />
             </Link>
           </div>
