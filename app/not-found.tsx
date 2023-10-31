@@ -19,9 +19,9 @@ export default function NotFound() {
                 <Image className="hidden sm:block opacity-50 md:opacity-80" src={NotFoundImage} width={768} height={432} priority alt="404" />
                 <div className="hidden sm:block absolute inset-0 bg-gradient-to-t from-white dark:from-gray-900" aria-hidden="true"></div>
                 <div className="sm:absolute w-full">
-                  <h1 className="h3 font-red-hat-display mb-8">Hm, the page you were looking for doesn't exist anymore.</h1>
+                  <h1 className="h3 font-red-hat-display mb-8">Die Seite wurde nicht gefunden.</h1>
                   <Link className="btn text-white bg-teal-500 hover:bg-teal-400 inline-flex items-center" href="/">
-                    <span>Back to Appy</span>
+                    <span>Zurück zu Home</span>
                     <svg className="w-3 h-3 shrink-0 mt-px ml-2" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path className="fill-current" d="M6.602 11l-.875-.864L9.33 6.534H0v-1.25h9.33L5.727 1.693l.875-.875 5.091 5.091z" />
                     </svg>
