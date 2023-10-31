@@ -5,6 +5,8 @@ import React, { Fragment, useState } from 'react'
 import Image from "next/image";
 import MessageIcon from '@/public/images/logos/messageIcon.svg'
 import WhatsappIcon from "@/public/images/logos/whatsapp.svg";
+import TestimonialImage01 from '@/public/images/team-greg.png'
+
 
 export default function MyModal() {
     let [isOpen, setIsOpen] = useState(false)
@@ -64,14 +66,25 @@ export default function MyModal() {
                                 leaveTo="opacity-0 scale-95"
                             >
                                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                                    <h2 className="h2 text-2xl lg:text2xl mb-0 font-red-hat-display font-black text-gray-900">
-                                        Wie möchtest du kontaktiert werden?
-                                    </h2>
-                                    <div className="mt-0">
-                                        <p className="text-sm text-gray-500">
-                                            Ich melde mich innerhalb von 24 Stunden!
-                                        </p>
+                                    <div className="flex gap-4 items-center">
+                                        <div className="relative flex flex-col w-3/12 items-center">
+                                            <Image className="rounded-full" src={TestimonialImage01} width={80} height={80} alt="Testimonial 01" />
+                                            <p className="text-xs text-gray-500 text-center">
+                                                Gregor W.
+                                            </p>
+                                        </div>
+                                        <div className="w-9/12">
+                                            <h2 className="h2 text-[22px] lg:text-2xl mb-0 font-red-hat-display font-black text-gray-900">
+                                                Wie möchtest du kontaktiert werden?
+                                            </h2>
+                                            <div className="mt-0">
+                                                <p className="text-sm text-gray-500">
+                                                    Ich melde mich innerhalb von 24 Stunden!
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
+
 
                                     <div className="mt-4 flex flex-col gap-4">
                                         <button
