@@ -1,4 +1,5 @@
-import Whatsapp from "@/components/whatsapp";
+import ContactModal from '@/components/contactModal'
+
 export default function Cta() {
   return (
     <section>
@@ -35,7 +36,7 @@ export default function Cta() {
             </div>
 
             {/* CTA form */}
-            <Whatsapp/>
+            <ContactModal/>
 
           </div>
 
