@@ -36,9 +36,9 @@ export default function Contact() {
                                     <svg x="50%" y="-1" className="overflow-visible fill-gray-50">
                                         <path
                                             d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                                            stroke-width="0"/>
+                                            />
                                     </svg>
-                                    <rect width="100%" height="100%" stroke-width="0"
+                                    <rect width="100%" height="100%"
                                           fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"/>
                                 </svg>
                             </div>
@@ -48,7 +48,7 @@ export default function Contact() {
                                     className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                                     <div className="lg:pr-4">
                                         <div className="lg:max-w-lg">
-                                            <p className="text-base font-semibold leading-7 text-indigo-600">Unternehmensinformation</p>
+                                            <p className="text-base font-semibold leading-7 text-teal-500">Unternehmensinformation</p>
                                             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl">derGreg.com</h2>
                                             <p className="mt-6 text-xl leading-8 text-gray-700">Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.</p>
                                         </div>
@@ -61,52 +61,21 @@ export default function Contact() {
                                         <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
                                             <ul role="list" className="mt-8 space-y-4 text-gray-600">
                                                 <li className="flex gap-x-2">
-                                                    <svg className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                                                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                                                              clip-rule="evenodd"/>
-                                                    </svg>
-                                                    <span><strong className="font-semibold text-gray-900">Unternehmen:</strong> Gregor Wallner</span>
+                                                    <span><strong className="font-semibold text-gray-900">Unternehmen:</strong> Gregor Wallner EU</span>
                                                 </li>
                                                 <li className="flex gap-x-2">
-                                                    <svg className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                                                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                                                              clip-rule="evenodd"/>
-                                                    </svg>
-                                                    <span><strong className="font-semibold text-gray-900">Unternehmensgegenstand:</strong> IT Dienstleistungen</span>
+                                                    <span><strong className="font-semibold text-gray-900">Gegenstand:</strong> IT Dienstleistungen</span>
                                                 </li>
                                                 <li className="flex gap-x-2">
-                                                    <svg className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                                                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                                                              clip-rule="evenodd"/>
-                                                    </svg>
-                                                    <span><strong className="font-semibold text-gray-900">UID Nummer:</strong> ATU12345678</span>
+                                                    <span><strong className="font-semibold text-gray-900">UID Nummer:</strong> ATU71544019</span>
                                                 </li>
                                                 <li className="flex gap-x-2">
-                                                    <svg className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                                                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                                                              clip-rule="evenodd"/>
-                                                    </svg>
                                                     <span><strong className="font-semibold text-gray-900">Telefon:</strong> +43 650 9405071</span>
                                                 </li>
                                                 <li className="flex gap-x-2">
-                                                    <svg className="mt-1 h-5 w-5 flex-none text-indigo-600"
-                                                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                                                        <path fill-rule="evenodd"
-                                                              d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                                                              clip-rule="evenodd"/>
-                                                    </svg>
                                                     <span><strong className="font-semibold text-gray-900">Email:</strong> office@dergreg.com</span>
                                                 </li>
-                                                <p>
-                                                    <br/>Mitglied bei: WKO</p>
+                                                <p>Mitglied bei: WKO</p>
                                             </ul>
                                             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Cookies</h2>
                                             <p className="mt-2">Um den Besuch unserer Website attraktiv zu gestalten und die Nutzung bestimmter Funktionen zu ermöglichen, verwenden wir Cookies, also kleine Textdateien, die auf Ihrem Endgerät abgelegt werden. Teilweise werden diese Cookies nach Schließen des Browsers automatisch wieder gelöscht (sog. „Session-Cookies“), teilweise verbleiben diese Cookies länger auf Ihrem Endgerät und ermöglichen das Speichern von Seiteneinstellungen (sog. „persistente Cookies“). Im letzteren Fall können Sie die Speicherdauer der Übersicht zu den Cookie-Einstellungen Ihres Webbrowsers entnehmen.
