@@ -13,7 +13,7 @@ export default function TestimonialsBlocks() {
           <div className="max-w-sm mx-auto grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:gap-12 items-start sm:max-w-none md:max-w-2xl lg:max-w-none">
 
             {/* 1st testimonial */}
-            <div className="text-center">
+            <div data-aos="fade-up" data-aos-delay="150" className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <Image className="rounded-full" src={TestimonialImage01} width={56} height={56} alt="Testimonial 01" />
                 <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
@@ -22,12 +22,12 @@ export default function TestimonialsBlocks() {
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Unsere Produkte leben von Emotionen und genau das spiegelt unsere neue Website wider. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—David Krammer</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Olivadis</a>
+                <cite className="not-italic">—David Krammer</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="">Olivadis</a>
               </div>
             </div>
 
             {/* 2nd testimonial */}
-            <div className="text-center">
+            <div data-aos="fade-up" data-aos-delay="350" className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <Image className="rounded-full" src={TestimonialImage02} width={56} height={56} alt="Testimonial 02" />
                 <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">
@@ -36,12 +36,12 @@ export default function TestimonialsBlocks() {
               </div>
               <blockquote className="text-xl text-gray-600 dark:text-gray-400">“ Unser Ticket Buchungssystem ist nicht nur optisch ein Highlight, sondern auch in puncto Bedienfreundlichkeit und Performance. “</blockquote>
               <div className="font-red-hat-display font-bold mt-2">
-                <cite className="not-italic">—Florian Röhlich</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="#0">Kabarett Am See</a>
+                <cite className="not-italic">—Florian Röhlich</cite>, <a className="text-teal-500 transition duration-150 ease-in-out" href="">Kabarett Am See</a>
               </div>
             </div>
 
             {/* 3rd testimonial */}
-            <div className="text-center">
+            <div data-aos="fade-up" data-aos-delay="550" className="text-center">
               <div className="relative inline-flex flex-col mb-4">
                 <Image className="rounded-full" src={TestimonialImage03} width={56} height={56} alt="Testimonial 03" />
                 <svg className="absolute top-0 right-0 mt-1 -mr-8" width="27" height="12" xmlns="http://www.w3.org/2000/svg">

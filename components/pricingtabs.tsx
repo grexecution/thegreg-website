@@ -1,7 +1,5 @@
 'use client'
 
-import { useState } from 'react'
-
 import Image from 'next/image'
 import PricingDecoration from '@/public/images/pricing-decoration.png'
 import Tooltip from '@/components/tooltip'
@@ -14,8 +12,8 @@ export default function PricingTabs() {
 
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-12">
-                        <h2 className="h2 font-red-hat-display mb-4 text-black dark:text-gray-100">Meine Preise</h2>
-                        <p className="text-xl text-gray-400">Ein beeindruckender Webauftritt muss nicht dein Budget sprengen. Entdecke meine fairen Pakete, die Qualität und Wert vereinen.
+                        <h2 data-aos="fade-down" data-aos-delay="150" className="h2 font-red-hat-display mb-4 text-black dark:text-gray-100">Meine Preise</h2>
+                        <p data-aos="fade-down" data-aos-delay="150" className="text-xl text-gray-400">Ein beeindruckender Webauftritt muss nicht dein Budget sprengen. Entdecke meine fairen Pakete, die Qualität und Wert vereinen.
                         </p>
                     </div>
 
@@ -24,7 +22,7 @@ export default function PricingTabs() {
                         <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none">
 
                             {/* Pricing tab 1 */}
-                            <div className="h-full">
+                            <div data-aos="fade-up" data-aos-delay="450" className="h-full">
                                 <div className="relative flex flex-col h-full p-6 rounded-lg border border-transparent [background:linear-gradient(theme(colors.zinc.50),theme(colors.zinc.50))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box]">
                                     <div className="mb-4">
                                         <div className="text-lg text-zinc-900 font-semibold mb-1">Website Light</div>
@@ -97,7 +95,7 @@ export default function PricingTabs() {
                             </div>
 
                             {/* Pricing tab 2 */}
-                            <div className="h-full">
+                            <div data-aos="fade-up" data-aos-delay="650" className="h-full">
                                 <div className="relative flex flex-col h-full p-6 rounded-lg bg-zinc-700">
                                     <Image className="absolute right-6 -top-5 mix-blend-exclusion" src={PricingDecoration} alt="Pricing decoration" width={76} height={74} aria-hidden="true" />
                                     <div className="mb-4">
@@ -155,7 +153,7 @@ export default function PricingTabs() {
                             </div>
 
                             {/* Pricing tab 3 */}
-                            <div className="h-full">
+                            <div data-aos="fade-up" data-aos-delay="850" className="h-full">
                                 <div className="relative flex flex-col h-full p-6 rounded-lg border border-transparent [background:linear-gradient(theme(colors.zinc.50),theme(colors.zinc.50))_padding-box,linear-gradient(120deg,theme(colors.zinc.300),theme(colors.zinc.100),theme(colors.zinc.300))_border-box]">
                                     <div className="mb-4">
                                         <div className="text-lg text-zinc-900 font-semibold mb-1">Maßgeschneidert</div>

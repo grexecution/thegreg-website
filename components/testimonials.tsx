@@ -78,15 +78,15 @@ export default function Testimonials() {
             <div className="py-12 md:py-20">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6">
                     <div className="max-w-3xl mx-auto text-center pb-6 md:pb-10">
-                        <h2 className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-200">Meine Projekte</h2>
-                        <p className="text-xl text-gray-400">25+ Websites habe ich bereits erfolgreich entwickelt.
+                        <h2 data-aos="fade-down" data-aos-delay="150" className="font-inter-tight text-3xl md:text-4xl font-bold text-zinc-200">Meine Projekte</h2>
+                        <p data-aos="fade-down" data-aos-delay="150" className="text-xl text-gray-400">25+ Websites habe ich bereits erfolgreich entwickelt.
                         </p>
                     </div>
                 </div>
                 <div className="max-w-[94rem] mx-auto space-y-6">
                     {/* Row #1 */}
                     <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_28%,_black_calc(100%-28%),transparent_100%)] group">
-                        <div className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll group-hover:[animation-play-state:paused]">
+                        <div data-aos="fade-up" data-aos-delay="250" className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll group-hover:[animation-play-state:paused]">
                             {/* Items */}
                             {testimonials01.map((testimonial, index) => (
                                 <Testimonial key={index} testimonial={testimonial}>
@@ -95,7 +95,7 @@ export default function Testimonials() {
                             ))}
                         </div>
                         {/* Duplicated element for infinite scroll */}
-                        <div className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll group-hover:[animation-play-state:paused]" aria-hidden="true">
+                        <div data-aos="fade-up" data-aos-delay="450" className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll group-hover:[animation-play-state:paused]" aria-hidden="true">
                             {/* Items */}
                             {testimonials01.map((testimonial, index) => (
                                 <Testimonial key={index} testimonial={testimonial}>
@@ -106,7 +106,7 @@ export default function Testimonials() {
                     </div>
                     {/* Row #2 */}
                     <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_28%,_black_calc(100%-28%),transparent_100%)] group">
-                        <div className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll-inverse group-hover:[animation-play-state:paused] [animation-delay:-7.5s]">
+                        <div data-aos="fade-up" data-aos-delay="350" className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll-inverse group-hover:[animation-play-state:paused] [animation-delay:-7.5s]">
                             {/* Items */}
                             {testimonials02.map((testimonial, index) => (
                                 <Testimonial key={index} testimonial={testimonial}>
@@ -115,7 +115,7 @@ export default function Testimonials() {
                             ))}
                         </div>
                         {/* Duplicated element for infinite scroll */}
-                        <div className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll-inverse group-hover:[animation-play-state:paused] [animation-delay:-7.5s]" aria-hidden="true">
+                        <div data-aos="fade-up" data-aos-delay="150" className="flex items-start justify-center md:justify-start [&>div]:mx-3 animate-infinite-scroll-inverse group-hover:[animation-play-state:paused] [animation-delay:-7.5s]" aria-hidden="true">
                             {/* Items */}
                             {testimonials02.map((testimonial, index) => (
                                 <Testimonial key={index} testimonial={testimonial}>

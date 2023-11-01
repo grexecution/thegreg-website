@@ -28,11 +28,11 @@ export default function Cta() {
             </svg>
           </div>
 
-          <div className="relative flex flex-col lg:flex-row justify-between items-center">
+          <div data-aos="fade-up" data-aos-delay="150" className="relative flex flex-col lg:flex-row justify-between items-center">
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 font-red-hat-display text-gray-100">Jetzt starten und keine Zeit verlieren!</h3>
+              <h3 data-aos="fade-up" data-aos-delay="350" className="h3 font-red-hat-display text-gray-100">Jetzt starten und keine Zeit verlieren!</h3>
             </div>
 
             {/* CTA form */}
