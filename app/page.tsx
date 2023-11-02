@@ -7,17 +7,16 @@ export const metadata = {
     url: 'https://dergreg.com',
     images: [
       {
-        url: '@/public/images/OG/og_facebook.png',
+        url: '/images/OG/og_facebook.png',
         width: 1200,
         height: 630,
         type: 'image/png'
       },
       {
-        url: '@/public/images/OG/og_whatsapp.png',
+        url: '/images/OG/og_whatsapp.png',
         width: 400,
         height: 400,
         type: 'image/png',
-        alt: 'My custom alt',
       },
     ],
     locale: 'de_DE',
