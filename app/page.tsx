@@ -1,6 +1,28 @@
 export const metadata = {
   title: 'derGreg.com – Websites, die verkaufen, überzeugen und verzaubern!',
   description: 'Warum sich zwischen Funktionalität und Flair entscheiden? Ich biete Websites, die nicht nur hübsch anzusehen sind, sondern auch die Kasse klingeln lassen. Schau vorbei und bringe dein Online-Geschäft auf die Überholspur!',
+  openGraph: {
+    title: 'derGreg.com – Websites, die verkaufen, überzeugen und verzaubern!',
+    description: 'Warum sich zwischen Funktionalität und Flair entscheiden? Ich biete Websites, die nicht nur hübsch anzusehen sind, sondern auch die Kasse klingeln lassen. Schau vorbei und bringe dein Online-Geschäft auf die Überholspur!',
+    url: 'https://dergreg.com',
+    images: [
+      {
+        url: '@/public/images/OG/og_facebook.png',
+        width: 1200,
+        height: 630,
+        type: 'image/png'
+      },
+      {
+        url: '@/public/images/OG/og_whatsapp.png',
+        width: 400,
+        height: 400,
+        type: 'image/png',
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'de_DE',
+    type: 'website',
+  },
 }
 
 import Head from "next/head";
@@ -25,17 +47,6 @@ export default function Home() {
         <meta property="og:type" content="Website" />
         <meta property="og:url" content="www.dergreg.com" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-
-        <meta property="og:image" content='@/public/images/OG/og_facebook.png' />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-
-        <meta property="og:image" content='@/public/images/OG/og_whatsapp.png'/>
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="400" />
-
       </Head>
       {/*  Page illustration */}
       <div className="relative max-w-6xl mx-auto h-0 pointer-events-none -z-1" aria-hidden="true">
