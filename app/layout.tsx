@@ -17,6 +17,9 @@ import Header from '@/components/ui/header'
 import Footer from '@/components/ui/footer'
 import FacebookPixel from "@/components/FacebookPixel";
 
+import { Analytics } from '@vercel/analytics/react';
+
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
@@ -71,6 +74,7 @@ export default function RootLayout({
               __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
             }}
         />
+        <Analytics />
       </body>
     </html>
   )
