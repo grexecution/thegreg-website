@@ -64,11 +64,11 @@ export default function RootLayout({
             <Header />
             <main className="grow">
               {children}
-              <Analytics />
             </main>
             <Footer />
           </div>
         </Theme>
+        <Analytics />
         <FacebookPixel />
         <noscript
             dangerouslySetInnerHTML={{
