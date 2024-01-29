@@ -28,7 +28,7 @@ export default function PricingTabs() {
                                         <div className="text-lg text-zinc-900 font-semibold mb-1">Website Light</div>
                                         <div className="font-inter-tight inline-flex items-baseline mb-2">
                                             <span className="text-zinc-900 font-bold text-2xl">€</span>
-                                            <span className="text-zinc-900 font-bold text-3xl">1.190</span>
+                                            <span className="text-zinc-900 font-bold text-3xl">1.490</span>
                                             <span className="ml-2 text-zinc-500 font-medium text-xs">exkl. MwSt</span>
                                         </div>
                                         <div className="text-zinc-500">Für aufstrebende Projekte mit modernem Anspruch</div>
