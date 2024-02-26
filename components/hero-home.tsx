@@ -20,7 +20,7 @@ export default function HeroHome() {
                   <ContactModal/>
                   <a className="btn text-teal-500 bg-white border-2 border-teal-500 dark:border-white dark:border-2 dark:bg-white hover:bg-teal-100 shrink-0" href="#projekte">Website Projekte ansehen</a>
                 </div>
-              <div className="pt-1" data-aos="fade-down" data-aos-delay="350"><span>Fertige Website in 4 Wochen | ab €1190,-</span></div>
+              <div className="pt-1" data-aos="fade-down" data-aos-delay="350"><span>Fertige Website in 4 Wochen | ab €1.490,-</span></div>
             </div>
 
             {/* Mobile mockup */}

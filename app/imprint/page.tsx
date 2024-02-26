@@ -85,7 +85,8 @@ export default function Contact() {
                                                 Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und einzeln über deren Annahme entscheiden oder die Annahme von Cookies für bestimmte Fälle oder generell ausschließen können.
 
                                                 Bitte beachten Sie, dass bei Nichtannahme von Cookies die Funktionalität unserer Website eingeschränkt sein kann.</p>
-                                        <a href="https://thegreg.io">Webdesign & Course for Web Development</a>
+                                        <br/>
+                                            <a href="https://thegreg.io">Webdesign & Course for Web Development</a>
                                         </div>
                                     </div>
                                 </div>
